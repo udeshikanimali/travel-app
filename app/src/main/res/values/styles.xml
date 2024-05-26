@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#ED7014</item> <!-- Primary color for your app -->
+        <item name="colorPrimaryDark">#ED7014</item> <!-- Status bar color -->
+        <item name="colorAccent">#FF4081</item>
+    </style>
+</resources>
