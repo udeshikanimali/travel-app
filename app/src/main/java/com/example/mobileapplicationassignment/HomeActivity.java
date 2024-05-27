@@ -2,9 +2,12 @@ package com.example.mobileapplicationassignment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageView;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -17,6 +20,16 @@ public class HomeActivity extends AppCompatActivity {
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         window.setStatusBarColor(getResources().getColor(R.color.blue));
+
+        ImageView imageView = findViewById(R.id.imageView5);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Intent to start DetailsActivity
+                Intent intent = new Intent(HomeActivity.this, DetailsActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

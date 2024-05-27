@@ -518,11 +518,15 @@
                 android:gravity="center">
 
                 <ImageView
+                    android:id="@+id/imageView5"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_gravity="center"
                     android:src="@drawable/home__1_"
-                    app:srcCompat="@drawable/home__1_" />
+                    app:srcCompat="@drawable/home__1_"
+                    android:clickable="true"
+                    android:focusable="true" />
+
 
             </LinearLayout>
 
