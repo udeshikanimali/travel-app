@@ -30,12 +30,22 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        ImageView imageView1 = findViewById(R.id.imageView18);
+        ImageView imageView1 = findViewById(R.id.imageView20);
         imageView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Intent to start DetailsActivity
                 Intent intent = new Intent(HomeActivity.this, HelpActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView imageView2 = findViewById(R.id.imageView19);
+        imageView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Intent to start DetailsActivity
+                Intent intent = new Intent(HomeActivity.this, AboutUsActivity.class);
                 startActivity(intent);
             }
         });
