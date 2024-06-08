@@ -6,4 +6,9 @@
         <item name="colorPrimaryDark">#ED7014</item> <!-- Status bar color -->
         <item name="colorAccent">#FF4081</item>
     </style>
+
+    <style name="NoUnderlineTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
 </resources>
